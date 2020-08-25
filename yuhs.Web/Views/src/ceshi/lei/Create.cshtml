@@ -1,4 +1,4 @@
-@model yuhs.Web.Models.src.studentModel
+@model yuhs.Web.Models.src.ceshi.leiModel
 <!--add customized code between this region-->
 <!--add customized code between this region-->
 
@@ -14,7 +14,7 @@
 <div class="m_title_box">
     <ol>
         <li data-id="Create">
-            <a href="#">student</a><i class="icon-arrowright"></i>
+            <a href="#">lei</a><i class="icon-arrowright"></i>
         </li>
         <li data-id="Create">Create</li>
     </ol>
@@ -48,23 +48,12 @@
 			    </div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<div class="form-group">
-						<label for="studentnumber"  class="col-md-4 from-title" >studentnumber</label>
-						<div class="col-md-8 from-cont">
-							@Html.TextBoxFor(model => model.studentnumber, new { @class = "form-control" })
-							@Html.ValidationMessageFor(model => model.studentnumber)
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="form-group">
-						<label for="studentname"  class="col-md-4 from-title" >studentname</label>
-						<div class="col-md-8 from-cont">
-							@Html.TextBoxFor(model => model.studentname, new { @class = "form-control" })
-							@Html.ValidationMessageFor(model => model.studentname)
+						<label class="col-md-2 from-title" >text</label>
+						<div class="col-md-10 from-cont">
+							@Html.TextAreaFor(model => model.text, new { @class = "form-control" })
+							@Html.ValidationMessageFor(model => model.text)
 						</div>
 					</div>
 				</div>
@@ -82,6 +71,7 @@
     <script>
         $(document)
             .ready(function() {
+			CKEDITOR.replace('text',{ customConfig: '/Scripts/ckeditor_full/config.js'});
         });
     </script>
 }

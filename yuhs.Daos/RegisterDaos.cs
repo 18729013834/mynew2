@@ -19,6 +19,8 @@ namespace yuhs.Daos
 		
 		public static void Register(DaoFactory factory, bool isRegister, Type sqlDialect, Type sqlDialectVersion)
 		{
+			factory.Register(typeof(yuhs.Daos.Interfaces.src.ceshi.IleiDao), new yuhs.Daos.src.ceshi.leiDao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
+			factory.Register(typeof(yuhs.Daos.Interfaces.src.Itest11Dao), new yuhs.Daos.src.test11Dao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			factory.Register(typeof(yuhs.Daos.Interfaces.src.IstudentDao), new yuhs.Daos.src.studentDao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			/*add customized code between this region*/
 			/*add customized code between this region*/

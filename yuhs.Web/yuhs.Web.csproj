@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{84cdc540-3fb6-47ed-99fc-da772f54cce9}</ProjectGuid>
+    <ProjectGuid>{a41b629f-3f79-4417-a44d-4a096a8f9e9a}</ProjectGuid>
     <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -23,34 +23,50 @@
     <Content Include="Scripts\ckeditor_full\samples\tabindex.html" />    <Content Include="Scripts\ckeditor_full\samples\uicolor.html" />    <Content Include="Scripts\ckeditor_full\samples\uilanguages.html" />    <Content Include="Scripts\ckeditor_full\samples\xhtmlstyle.html" />    <Content Include="Scripts\ckeditor_full\skins\moono\dialog.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\dialog_ie.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\dialog_ie7.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\dialog_ie8.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\dialog_opera.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\editor.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\editor_gecko.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\editor_ie.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\editor_ie7.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\editor_ie8.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\editor_iequirks.css" />    <Content Include="Scripts\ckeditor_full\skins\moono\icons.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\icons_hidpi.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\arrow.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\close.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\hidpi\close.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\hidpi\lock-open.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\hidpi\lock.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\hidpi\refresh.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\lock-open.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\lock.png" />    <Content Include="Scripts\ckeditor_full\skins\moono\images\refresh.png" />    <Content Include="Scripts\ckeditor_full\styles.js" />    <Content Include="Scripts\ckeditor_full\CHANGES.md" />    <Content Include="Scripts\ckeditor_full\LICENSE.md" />    <Content Include="Scripts\ckeditor_full\plugins\scayt\LICENSE.md" />    <Content Include="Scripts\ckeditor_full\plugins\scayt\README.md" />    <Content Include="Scripts\ckeditor_full\plugins\wsc\LICENSE.md" />    <Content Include="Scripts\ckeditor_full\plugins\wsc\README.md" />    <Content Include="Scripts\ckeditor_full\samples\assets\posteddata.php" />    <Content Include="Scripts\ckeditor_full\samples\plugins\htmlwriter\assets\outputforflash\outputforflash.fla" />    <Content Include="Scripts\DateTimePicker\index.html" />    <Content Include="Scripts\DateTimePicker\jquery.datetimepicker.css" />    <Content Include="Scripts\DateTimePicker\jquery.datetimepicker.js" />    <Content Include="Scripts\DateTimePicker\jquery.js" />    <Content Include="Scripts\DateTimePicker\screen\1.png" />    <Content Include="Scripts\DateTimePicker\screen\2.png" />    <Content Include="Scripts\DateTimePicker\screen\3.1.png" />    <Content Include="Scripts\DateTimePicker\screen\3.png" />    <Content Include="Scripts\DateTimePicker\bower.json" />    <Content Include="Scripts\DateTimePicker\datetimepicker.jquery.json" />    <Content Include="Scripts\DateTimePicker\doc.tpl" />
     <Content Include="Scripts\jquery-ui-1.12.1\images\ui-close.png" />    <Content Include="Scripts\jquery-ui-1.12.1\images\ui-icons_444444_256x240.png" />    <Content Include="Scripts\jquery-ui-1.12.1\images\ui-icons_555555_256x240.png" />    <Content Include="Scripts\jquery-ui-1.12.1\images\ui-icons_777620_256x240.png" />    <Content Include="Scripts\jquery-ui-1.12.1\images\ui-icons_777777_256x240.png" />    <Content Include="Scripts\jquery-ui-1.12.1\images\ui-icons_cc0000_256x240.png" />    <Content Include="Scripts\jquery-ui-1.12.1\images\ui-icons_ffffff_256x240.png" />    <Content Include="Scripts\jquery-ui-1.12.1\jquery-ui-timepicker-addon.css" />    <Content Include="Scripts\jquery-ui-1.12.1\jquery-ui-timepicker-addon.js" />    <Content Include="Scripts\jquery-ui-1.12.1\jquery-ui.min.css" />    <Content Include="Scripts\jquery-ui-1.12.1\jquery-ui.min.js" />    <Content Include="Scripts\jquery-ui-1.12.1\jquery-ui.theme.min.css" />
     <Content Include="Scripts\bootstrap.js" />    <Content Include="Scripts\bootstrap.min.js" />    <Content Include="Scripts\scripts.js" />    <Content Include="Scripts\dateformat.js" />    <Content Include="Scripts\jquery-3.3.1.js" />    <Content Include="Scripts\jquery-3.3.1.min.js" />    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />    <Content Include="Scripts\jquery.validate.js" />    <Content Include="Scripts\jquery.validate.min.js" />    <Content Include="Scripts\jquery.validate.unobtrusive.js" />    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />    <Content Include="Scripts\knockout-2.2.0.debug.js" />    <Content Include="Scripts\knockout-2.2.0.js" />    <Content Include="Scripts\common.js" />    <Content Include="Scripts\editCollection.js" />    <Content Include="Scripts\modal.js" />    <Content Include="Scripts\modernizr-2.6.2.js" />    <Content Include="Scripts\PagerForHtmlHelper.js" />    <Content Include="Web.config" />    <Content Include="Web.Debug.config" >      <DependentUpon>Web.config</DependentUpon>    </Content>    <Content Include="Web.Release.config" >      <DependentUpon>Web.config</DependentUpon>    </Content>    <Content Include="Views\Web.config" />    <Content Include="Views\_ViewStart.cshtml" />    <Content Include="Views\Shared\Error.cshtml" />    <Content Include="Views\Shared\_DeleteDialog.cshtml" />    <Content Include="Views\Account\Login.cshtml" />    <Content Include="Views\Account\Register.cshtml" />    <Content Include="Views\Workspace\Index.cshtml" />  <!--add customized code between this region-->  <!--add customized code between this region-->  </ItemGroup>  <ItemGroup>
+    <Compile Include="Controllers\\src\\ceshi\\leiController.cs" />
+    <Compile Include="Controllers\\src\\studentController.cs" />
+    <Compile Include="Controllers\\src\\test11Controller.cs" />
+    <Content Include="Views\\src\\ceshi\\lei\\Index.cshtml" />
+    <Content Include="Views\\src\\ceshi\\lei\\_DataList.cshtml" />
+    <Content Include="Views\\src\\ceshi\\lei\\_Search.cshtml" />
+    <Content Include="Views\\src\\ceshi\\lei\\Details.cshtml" />
+    <Content Include="Views\\src\\ceshi\\lei\\Edit.cshtml" />
+    <Content Include="Views\\src\\ceshi\\lei\\Create.cshtml" />
+    <Content Include="Views\\src\\test11\\Create.cshtml" />
+    <Content Include="Views\\src\\test11\\Edit.cshtml" />
+    <Content Include="Views\\src\\test11\\Details.cshtml" />
+    <Content Include="Views\\src\\test11\\Index.cshtml" />
+    <Content Include="Views\\src\\test11\\_DataList.cshtml" />
+    <Content Include="Views\\src\\test11\\_Search.cshtml" />
+    <Content Include="Views\\src\\student\\Create.cshtml" />
     <Content Include="Views\\src\\student\\Index.cshtml" />
     <Content Include="Views\\src\\student\\_DataList.cshtml" />
     <Content Include="Views\\src\\student\\_Search.cshtml" />
-    <Content Include="Views\\src\\student\\Edit.cshtml" />
     <Content Include="Views\\src\\student\\Details.cshtml" />
-    <Content Include="Views\\src\\student\\Create.cshtml" />
+    <Content Include="Views\\src\\student\\Edit.cshtml" />
+    <Compile Include="Models\\src\\ceshi\\leiModel.cs" />
+    <Compile Include="Models\\src\\test11Model.cs" />
     <Compile Include="Models\\src\\studentModel.cs" />
-    <Compile Include="Controllers\\src\\studentController.cs" />
     <Content Include="Views\Shared\_Layout.cshtml"/>    <Compile Include="Controllers\WorkspaceController.cs"/>    <Compile Include="App_Start\BundleConfig.cs"/>    <Compile Include="App_Start\FilterConfig.cs"/>    <Compile Include="App_Start\RouteConfig.cs"/>    <Compile Include="App_Start\AreaViewEngine.cs"/>    <Compile Include="Properties\AssemblyInfo.cs"/>       <Compile Include="Global.asax.cs" >    <DependentUpon>Global.asax</DependentUpon>    <!--add customized code between this region-->    <!--add customized code between this region-->    </Compile>  </ItemGroup>  <ItemGroup>
     <ProjectReference Include="..\yuhs.Daos\yuhs.Daos.csproj">
-      <Project>{9f067d8b-d0de-4f7b-b04d-89b47a52dabf}</Project>
+      <Project>{a6d0379b-6d14-4ff6-8939-f98789531dbf}</Project>
       <Name>yuhs.Daos</Name>
     </ProjectReference>
     <ProjectReference Include="..\yuhs.Services.Interfaces\yuhs.Services.Interfaces.csproj">
-      <Project>{996ba6dc-0f6d-4d03-9161-eed936a6ef24}</Project>
+      <Project>{54257823-07e4-4c71-808c-507104e63aca}</Project>
       <Name>yuhs.Services.Interfaces</Name>
     </ProjectReference>
+    <ProjectReference Include="..\yuhs.Services\yuhs.Services.csproj">
+      <Project>{5fa93738-79fc-40c2-9fbf-c690bd39e75e}</Project>
+      <Name>yuhs.Services</Name>
+    </ProjectReference>
     <ProjectReference Include="..\yuhs.Entities\yuhs.Entities.csproj">
-      <Project>{8de8595d-37af-4f1e-8b3f-8de3e4df4918}</Project>
+      <Project>{33aecae1-66a3-4f18-8600-593c33609115}</Project>
       <Name>yuhs.Entities</Name>
     </ProjectReference>
     <ProjectReference Include="..\yuhs.Daos.Interfaces\yuhs.Daos.Interfaces.csproj">
-      <Project>{150dbab5-f502-4aaf-b258-c8ee7a5b9569}</Project>
+      <Project>{101beef0-4495-4e72-ab8b-f17ea00b6e23}</Project>
       <Name>yuhs.Daos.Interfaces</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\yuhs.Services\yuhs.Services.csproj">
-      <Project>{211de553-b6a3-4636-a8ce-195a50ed8af1}</Project>
-      <Name>yuhs.Services</Name>
     </ProjectReference>
 <!--add customized code between this region-->
 <!--add customized code between this region-->

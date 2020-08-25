@@ -5,31 +5,28 @@ using Web.Utilities.Mvc.Foundation;
 /*add customized code between this region*/
 /*add customized code between this region*/
 
-namespace yuhs.Web.Models.src
+namespace yuhs.Web.Models.src.ceshi
 {
-	public class studentModel: CommonModel<yuhs.Entities.src.student>
+	public class leiModel: CommonModel<yuhs.Entities.src.ceshi.lei>
 	{
-		public  int studentnumber { get; set; }
-		public  string studentname { get; set; }
+		public  string text { get; set; }
 		/*add customized code between this region*/
 		/*add customized code between this region*/
 		
-		public override void PopulateFrom(yuhs.Entities.src.student entity)
+		public override void PopulateFrom(yuhs.Entities.src.ceshi.lei entity)
 		{
 			if (entity == null) return;
 			base.PopulateFrom(entity);
-			this.studentnumber = entity.studentnumber;
-			this.studentname = entity.studentname;
+			this.text = entity.text;
 			/*add customized code between this region*/
 			/*add customized code between this region*/
 		}
 		
-		public override void PopulateTo(yuhs.Entities.src.student entity)
+		public override void PopulateTo(yuhs.Entities.src.ceshi.lei entity)
 		{
 			if (entity == null) return;
 			base.PopulateTo(entity);
-			entity.studentnumber = this.studentnumber;
-			entity.studentname = this.studentname;
+			entity.text = this.text;
 			/*add customized code between this region*/
 			/*add customized code between this region*/
 		}

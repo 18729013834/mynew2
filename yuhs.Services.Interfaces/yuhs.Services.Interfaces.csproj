@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{996ba6dc-0f6d-4d03-9161-eed936a6ef24}</ProjectGuid>
+    <ProjectGuid>{54257823-07e4-4c71-808c-507104e63aca}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>yuhs.Services.Interfaces</RootNamespace>
@@ -53,13 +53,15 @@
   </ItemGroup>
   <ItemGroup>
   <Compile Include="Properties\AssemblyInfo.cs"/>
+    <Compile Include="src\\ceshi\\IleiService.cs" />
+    <Compile Include="src\\Itest11Service.cs" />
     <Compile Include="src\\IstudentService.cs" />
 <!--add customized code between this region-->
 <!--add customized code between this region-->
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\yuhs.Entities\yuhs.Entities.csproj">
-      <Project>{8de8595d-37af-4f1e-8b3f-8de3e4df4918}</Project>
+      <Project>{33aecae1-66a3-4f18-8600-593c33609115}</Project>
       <Name>yuhs.Entities</Name>
     </ProjectReference>
 <!--add customized code between this region-->

@@ -67,20 +67,6 @@
 
                <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown">
-                @if (this.Context.User.Identity.IsAuthenticated)
-                {
-                    <a href="##" class="dropdown-toggle" data-toggle="dropdown"  aria-expanded="false">Hi,@this.Context.User.Identity.Name <i class="icon-down-arrow"></i></a>
-                    <ul class="dropdown-menu dropdown-user">
-                        <li><a><i></i> User Profile</a></li>
-                        <li><a><i></i> Settings</a></li>
-                        <li class="divider"></li>
-                        <li><a href="@(this.Url.Action("Logout", "Account",new {redirectUrl = Request.Url}))"><i></i> LOG OUT</a></li>
-                    </ul>
-                }
-                else
-                {
-                    <a href="@(this.Url.Action("Login", "Account",new {redirectUrl = Request.Url}))" class="dropdown-toggle">LOG IN</a>
-                }
                 </li>
             </ul>
 
@@ -88,6 +74,8 @@
     <nav class="navbar-default navbar-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav" id="main-menu" style="margin-bottom: 20px;">
+                <li data-id="lei">@Html.ActionLink("lei", "Index", new { Controller="lei",area="yuhs.Web.Views.src.ceshi"})</li>
+                <li data-id="test11">@Html.ActionLink("test11", "Index", new { Controller="test11",area="yuhs.Web.Views.src"})</li>
                 <li data-id="student">@Html.ActionLink("student", "Index", new { Controller="student",area="yuhs.Web.Views.src"})</li>
             </ul>
         </div>

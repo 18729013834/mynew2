@@ -7,29 +7,23 @@ using Web.Utilities.Mvc.Foundation;
 
 namespace yuhs.Web.Models.src
 {
-	public class studentModel: CommonModel<yuhs.Entities.src.student>
+	public class test11Model: CommonModel<yuhs.Entities.src.test11>
 	{
-		public  int studentnumber { get; set; }
-		public  string studentname { get; set; }
 		/*add customized code between this region*/
 		/*add customized code between this region*/
 		
-		public override void PopulateFrom(yuhs.Entities.src.student entity)
+		public override void PopulateFrom(yuhs.Entities.src.test11 entity)
 		{
 			if (entity == null) return;
 			base.PopulateFrom(entity);
-			this.studentnumber = entity.studentnumber;
-			this.studentname = entity.studentname;
 			/*add customized code between this region*/
 			/*add customized code between this region*/
 		}
 		
-		public override void PopulateTo(yuhs.Entities.src.student entity)
+		public override void PopulateTo(yuhs.Entities.src.test11 entity)
 		{
 			if (entity == null) return;
 			base.PopulateTo(entity);
-			entity.studentnumber = this.studentnumber;
-			entity.studentname = this.studentname;
 			/*add customized code between this region*/
 			/*add customized code between this region*/
 		}

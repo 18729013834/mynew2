@@ -5,15 +5,12 @@ using MetaShare.Common.Core.Entities;
 /*add customized code between this region*/
 /*add customized code between this region*/
 
-namespace yuhs.Entities.src
+namespace yuhs.Entities.src.ceshi
 {
-	public class student : MetaShare.Common.Core.Entities.Common
+	public class lei : MetaShare.Common.Core.Entities.Common
 	{
 		[DataMember]
-		public int studentnumber{get; set;}
-		
-		[DataMember]
-		public string studentname{get; set;}
+		public string text{get; set;}
 		
 		/*add customized code between this region*/
 		/*add customized code between this region*/

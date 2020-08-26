@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{492dc48f-7973-41ee-a941-e04e226f0e6b}</ProjectGuid>
+    <ProjectGuid>{b4bb6e37-492d-4937-ab18-086d660aaf30}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>yuhs.Entities</RootNamespace>
@@ -54,9 +54,10 @@
   <ItemGroup>
   <Compile Include="Properties\AssemblyInfo.cs"/>
     <Compile Include="src\\ceshi\\lei.cs" />
-    <Compile Include="src\\student.cs" />
     <Compile Include="src\\test11.cs" />
+    <Compile Include="src\\student.cs" />
     <Compile Include="test222.cs" />
+    <Compile Include="test333.cs" />
 <!--add customized code between this region-->
 <!--add customized code between this region-->
   </ItemGroup>

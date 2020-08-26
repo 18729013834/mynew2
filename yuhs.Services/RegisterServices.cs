@@ -22,6 +22,7 @@ namespace yuhs.Services
 			factory.Register(typeof(yuhs.Services.Interfaces.src.IstudentService), new yuhs.Services.src.studentService(), isRegister);
 			factory.Register(typeof(yuhs.Services.Interfaces.src.Itest11Service), new yuhs.Services.src.test11Service(), isRegister);
 			factory.Register(typeof(yuhs.Services.Interfaces.Itest222Service), new yuhs.Services.test222Service(), isRegister);
+			factory.Register(typeof(yuhs.Services.Interfaces.Itest333Service), new yuhs.Services.test333Service(), isRegister);
 			/*add customized code between this region*/
 			/*add customized code between this region*/
 		}

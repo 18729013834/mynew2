@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{c7fbe130-1c3c-4ce7-9c14-f1c2e8364533}</ProjectGuid>
+    <ProjectGuid>{b0545c99-9b04-49f2-81b6-82f5aa5f2a5d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>yuhs.Services</RootNamespace>
@@ -58,21 +58,22 @@
     <Compile Include="src\\studentService.cs" />
     <Compile Include="src\\test11Service.cs" />
     <Compile Include="test222Service.cs" />
+    <Compile Include="test333Service.cs" />
 <!--add customized code between this region-->
 <!--add customized code between this region-->
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\yuhs.Entities\yuhs.Entities.csproj">
-      <Project>{492dc48f-7973-41ee-a941-e04e226f0e6b}</Project>
-      <Name>yuhs.Entities</Name>
-    </ProjectReference>
     <ProjectReference Include="..\yuhs.Daos.Interfaces\yuhs.Daos.Interfaces.csproj">
-      <Project>{74bee518-01cf-4145-a3ed-3d035abc0fd0}</Project>
+      <Project>{0e784ad8-c27b-4603-9e5e-119d3140ddb6}</Project>
       <Name>yuhs.Daos.Interfaces</Name>
     </ProjectReference>
     <ProjectReference Include="..\yuhs.Services.Interfaces\yuhs.Services.Interfaces.csproj">
-      <Project>{89e48bc6-1907-44aa-b9aa-50b2ea50c5bd}</Project>
+      <Project>{d1e47d9e-5444-4ecc-9b91-98011e1a386e}</Project>
       <Name>yuhs.Services.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\yuhs.Entities\yuhs.Entities.csproj">
+      <Project>{b4bb6e37-492d-4937-ab18-086d660aaf30}</Project>
+      <Name>yuhs.Entities</Name>
     </ProjectReference>
 <!--add customized code between this region-->
 <!--add customized code between this region-->

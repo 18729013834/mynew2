@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.0.00001</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{74bee518-01cf-4145-a3ed-3d035abc0fd0}</ProjectGuid>
+    <ProjectGuid>{0e784ad8-c27b-4603-9e5e-119d3140ddb6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>yuhs.Daos.Interfaces</RootNamespace>
@@ -54,15 +54,16 @@
   <ItemGroup>
   <Compile Include="Properties\AssemblyInfo.cs"/>
     <Compile Include="src\\ceshi\\IleiDao.cs" />
-    <Compile Include="src\\Itest11Dao.cs" />
     <Compile Include="src\\IstudentDao.cs" />
+    <Compile Include="src\\Itest11Dao.cs" />
     <Compile Include="Itest222Dao.cs" />
+    <Compile Include="Itest333Dao.cs" />
 <!--add customized code between this region-->
 <!--add customized code between this region-->
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\yuhs.Entities\yuhs.Entities.csproj">
-      <Project>{492dc48f-7973-41ee-a941-e04e226f0e6b}</Project>
+      <Project>{b4bb6e37-492d-4937-ab18-086d660aaf30}</Project>
       <Name>yuhs.Entities</Name>
     </ProjectReference>
 <!--add customized code between this region-->

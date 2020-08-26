@@ -22,6 +22,7 @@ namespace yuhs.Daos
 			factory.Register(typeof(yuhs.Daos.Interfaces.src.ceshi.IleiDao), new yuhs.Daos.src.ceshi.leiDao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			factory.Register(typeof(yuhs.Daos.Interfaces.src.Itest11Dao), new yuhs.Daos.src.test11Dao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			factory.Register(typeof(yuhs.Daos.Interfaces.src.IstudentDao), new yuhs.Daos.src.studentDao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
+			factory.Register(typeof(yuhs.Daos.Interfaces.Itest333Dao), new yuhs.Daos.test333Dao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			factory.Register(typeof(yuhs.Daos.Interfaces.Itest222Dao), new yuhs.Daos.test222Dao(Activator.CreateInstance(sqlDialect) as SqlDialect), isRegister);
 			/*add customized code between this region*/
 			/*add customized code between this region*/

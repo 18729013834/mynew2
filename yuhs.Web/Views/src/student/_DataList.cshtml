@@ -5,8 +5,8 @@
             <thead>
             <tr>
 		<th class="text-left">Name</th>
-		<th class="text-left">studentname</th>
 		<th class="text-left">studentnumber</th>
+		<th class="text-left">studentname</th>
                 <th>Actions</th>
             </tr>
             </thead>
@@ -20,10 +20,10 @@
 				@Html.DisplayFor(modelItem => item.Name)
 			</td>
 			<td class="text-left">
-				@Html.DisplayFor(modelItem =>item.studentname)
+				@Html.DisplayFor(modelItem =>item.studentnumber)
 			</td>
 			<td class="text-left">
-				@Html.DisplayFor(modelItem =>item.studentnumber)
+				@Html.DisplayFor(modelItem =>item.studentname)
 			</td>
                     <td>
                         @Html.ActionLink(" ", "Details", new { id = item.Id, Controller = "student", area = "yuhs.Web.Views.src"}, new {@class="m_details", title="Details" })
